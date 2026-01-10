@@ -16,7 +16,7 @@
 
   <p>
     基于 Chrome Extension MV3 架构，通过底层协议重构与多级缓存机制，<br>
-    打破教务系统 (Kingosoft)、办事大厅 (Wisedu) 与一张表平台 (Wisedu new) 的数据孤岛。
+    打破教务系统 (Kingsoft)、办事大厅 (Wisedu) 与OneTable平台 (Wisedu new) 的数据孤岛。
   </p>
 </div>
 
