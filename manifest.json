@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Better-XJU ",
     "version": "1.0.0",
-    "description": "现代化的新疆大学学生管理系统 - 提供更好的用户体验",
+    "description": "基于 MV3 架构的现代化 XJU 学生系统扩展，提供更优雅、更丝滑的后台管理使用体验。",
     "permissions": [
         "storage",
         "cookies",
