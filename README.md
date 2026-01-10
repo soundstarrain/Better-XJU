@@ -1,24 +1,22 @@
 <div align="center">
-  <h1 style="font-size: 50px; margin-bottom: 10px;">Better-XJU</h1>
+  <h1>Better-XJU</h1>
 
-  <p align="center" style="font-size: 18px; margin-bottom: 10px;">
-    <strong>更现代的新疆大学学生管理系统前端</strong>
-  </p>
-  
-  <p align="center" style="font-size: 14px; color: #666; max-width: 600px; margin: 0 auto 15px auto; line-height: 1.6;">
-    基于 Chrome Extension MV3 架构，通过底层协议重构与多级缓存机制，<br>
-    打破教务系统 (Kingosoft)、办事大厅 (Wisedu) 与一张表平台 (Wisedu new) 的数据孤岛。
+  <p>
+    <img src="https://img.shields.io/badge/chrome_web_store-v1.0.0-blue" alt="Version">
+    <img src="https://img.shields.io/badge/manifest-v3-orange" alt="Manifest">
+   <img src="https://img.shields.io/badge/framework-React-61DAFB?logo=react&logoColor=black" alt="React">
+    <img src="https://img.shields.io/badge/build-Vite-646CFF?logo=vite" alt="Vite">
+    <img src="https://img.shields.io/badge/platform-Chrome%20|%20Edge-lightgrey" alt="Platform">
+    <img src="https://img.shields.io/badge/license-GPLv3-blue" alt="License">
   </p>
 
   <p>
-    <a href="https://chrome.google.com/webstore"><img src="https://img.shields.io/badge/Chrome_Extension-v1.0.0-4285F4?logo=googlechrome&logoColor=white" alt="Chrome Extension"></a>
-    <a href="https://developer.chrome.com/docs/extensions/mv3/"><img src="https://img.shields.io/badge/Manifest-V3-00897B?logo=googlechrome&logoColor=white" alt="Manifest V3"></a>
-    <a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPLv3-blue" alt="License"></a>
-    <br>
-    <img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black" alt="React">
-    <img src="https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript&logoColor=white" alt="TypeScript">
-    <img src="https://img.shields.io/badge/Tailwind-3.4-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
-    <img src="https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white" alt="Vite">
+    <b>更优雅的新疆大学学生后台使用体验<br>
+  </p>
+
+  <p>
+    基于 Chrome Extension MV3 架构，通过底层协议重构与多级缓存机制，<br>
+    打破教务系统 (Kingosoft)、办事大厅 (Wisedu) 与一张表平台 (Wisedu new) 的数据孤岛。
   </p>
 </div>
 
