@@ -1,0 +1,50 @@
+{
+    "manifest_version": 3,
+    "name": "Better-XJU ",
+    "version": "1.0.0",
+    "description": "现代化的新疆大学学生管理系统 - 提供更好的用户体验",
+    "permissions": [
+        "storage",
+        "cookies",
+        "declarativeNetRequest",
+        "declarativeNetRequestWithHostAccess"
+    ],
+    "background": {
+        "service_worker": "src/background/index.ts",
+        "type": "module"
+    },
+    "host_permissions": [
+        "*://*.xju.edu.cn/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.xju.edu.cn/*"
+            ],
+            "js": [
+                "src/content-script/index.tsx"
+            ],
+            "css": [],
+            "run_at": "document_start"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "*.js",
+                "*.css",
+                "*.png",
+                "*.jpg",
+                "*.svg"
+            ],
+            "matches": [
+                "*://*.xju.edu.cn/*"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "icon-16.png",
+        "48": "icon-48.png",
+        "128": "icon-128.png"
+    }
+}
